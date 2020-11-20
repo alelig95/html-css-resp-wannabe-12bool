@@ -3,10 +3,6 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .container>.left,
-#lezioni .container>.right {
-
-}
 
 #lezioni .container img {
   /* per centrare orizzontalmente */
@@ -20,11 +16,6 @@
 }
 
 /* BLOCCO STEPS */
-#steps .container>.left
-#steps .container>.center,
-#steps .container>.right {
-
-}
 
 #steps {
   text-align: center;
@@ -62,5 +53,87 @@ img {
 }
 
 @media screen and (max-width: 991px){
-  
+
+  .container{
+    padding: 0 5px;
+    margin-top: 50px;
+  }
+
+  #steps .container>.right {
+    margin-top: 30px;
+  }
+
+  #lezioni .container img {
+    height:160px;
+}
+
+  #steps .container img {
+    height: 160px;
+}
+
+  #why .container img {
+    height: 160px;
+}
+
+  h1{
+    font-size: 25px;
+}
+
+  p{
+    font-size:15px;
+  }
+
+  h3{
+    font-size: 18px;
+}
+
+  #why .container>.first,
+  #why .container>.second,
+  #why .container>.third {
+    margin-top: 65px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+  #lezioni .container>.right{
+    margin-top: 20px;
+  }
+
+  #steps .container>.central,
+  #steps .container>.right {
+    margin-top: 20px;
+  }
+
+  #lezioni .container img {
+    height :120px;
+}
+
+  #steps .container img{
+    height: 120px;
+}
+
+  #why .container img {
+    height: 120px;
+}
+
+  h1{
+    font-size: 22px;
+  }
+
+  p{
+    font-size:15px;
+  }
+
+  h3{
+    font-size: 17px;
+  }
+
+  #why .container>.first,
+  #why .container>.second,
+  #why .container>.third {
+    margin-top: 50px;
+  }
+
 }
